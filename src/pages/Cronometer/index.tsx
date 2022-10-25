@@ -1,4 +1,4 @@
-import { startTransition, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import * as S from './style';
 import { Header } from '../../components/Header';
@@ -24,7 +24,7 @@ export const Cronometer: React.FC = () => {
     setTimeout(() => setMinutes(0), 200)
     setTimeout(() => setSeconds(0), 200)
     setTimeout(() => setMilliseconds(0), 200)
-    
+
     setHours(0)
     setMinutes(0)
     setSeconds(0)
